@@ -4,7 +4,7 @@ $ npm install --global yarn
 # Iniciando o projeto
 $ yarn init -y
 
-# Instalando depenências iniciais
+# Instalando dependências iniciais
 $ yarn add typescript ts-node-dev @types/node tsconfig-paths -D
 
 # Criando o tsconfig.json que conterá as configurações do Typescript
@@ -17,3 +17,7 @@ npx tsc
 "scripts": {
   "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts"
 }
+
+
+# Instalando eslint
+yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
